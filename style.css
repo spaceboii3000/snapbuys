@@ -1,0 +1,116 @@
+<style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            line-height: 140%;
+        }
+        p {
+            line-height: 140%;
+            font-size: 1.125rem;
+        }
+        .container {
+            max-width: 1440px;
+        }
+        nav {
+            display: flex;
+            justify-content: start;
+        }
+        nav a {
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: transform 0.3s ease-in-out;
+        }
+        nav a:hover {
+            transform: scale(0.9);
+        }
+
+        .hero {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            text-align: start;
+            height: 60vh;
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        .hero-wrapper {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Images/surface-X1GZqv-F7Tw-unsplash.webp');
+            padding: 2rem;
+        }
+        .wrapper {
+            max-width: 480px;
+        }
+        .hero h1 {
+            margin: 0;
+            font-size: 4rem;
+        }
+        .content {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .content h2 {
+            text-align: center;
+        }
+        .features {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .feature-box {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            flex: 1;
+            min-width: 250px;
+            max-width: 300px;
+            text-align: center;
+        }
+        .feature-box img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .feature-box h3 {
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 36px;
+            }
+        }
+        button {
+    background-color: #BD091A; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 15px 32px; /* Padding inside the button */
+    text-align: center; /* Center-align text */
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Sit inline with other elements */
+    font-size: 16px; /* Text size */
+    margin: 4px 2px; /* Margin around the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 8px; /* Rounded corners */
+    transition: transform 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #750410;
+    transform: scale(0.98);
+}
+    </style>
